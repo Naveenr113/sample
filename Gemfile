@@ -14,7 +14,7 @@ gem 'rexml'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
-  gem 'bcrypt',         '3.1.13'
+  gem 'bcrypt',  '3.1.13'
   gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 
