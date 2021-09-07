@@ -10,12 +10,12 @@ gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.7.2', require: false
 gem 'rexml'
-gem 'sqlite3'
 gem 'bcrypt'
 
 group :development, :test do
     
   gem 'byebug',  platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3'
 end
 
 group :development do
