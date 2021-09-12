@@ -84,9 +84,9 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
-  background-color: black;
+  background-color: $gray-medium-light;
   a {
-    color: bl;
+    color: blue;
     &:hover {
       color: $gray-darker;
     }
@@ -100,6 +100,23 @@ footer {
     li {
       float: left;
       margin-left: 15px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    small {
+      display: block;
+      float: none;
+      margin-bottom: 1em;
+    }
+    ul {
+      float: none;
+      padding: 0;
+      li {
+        float: none;
+        margin-left: 0;
+      }
     }
   }
 }
